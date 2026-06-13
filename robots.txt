@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://madhav-kumar-nepal.netlify.app/sitemap.xml
+
+# Slow bots protection
+User-agent: Bingbot
+Crawl-delay: 5
+
+# Allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+# Block harmful scrapers (optional but recommended)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
